@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Формы — Путешествия по Италии</title>
+</head>
+
+<body id="top" style="font-family: Arial; background-color: #f5f5f5; margin: 0;">
+
+    <header style="background-color: #008c45; color: white; padding: 20px; text-align: center;">
+        <h1>Путешествия по Италии</h1>
+        <p>Формы для путешественников</p>
+    </header>
+
+    <nav style="width: 180px; background-color: #e7e6e6; padding: 20px; float: left;">
+
+        <a href="index.html" style="color: rgb(5, 5, 5); margin: 10px;">
+            Главная
+        </a>
+        <br>
+        <a href="index.html#getready" style="color: rgb(5, 5, 5); margin: 10px;">
+            Как подготовиться к поездке
+        </a>
+        <br><br>
+
+        <a href="rome.html" style="color: rgb(5, 5, 5); margin: 10px;">
+            Рим
+        </a>
+        <br>
+        <a href="rome.html">
+            <img src="images/rome.jpg" alt="Рим" width="100" height="70">
+        </a>
+        <br><br>
+
+        <a href="venice.html" style="color: rgb(5, 5, 5); margin: 10px;">
+            Венеция
+        </a>
+        <br>
+        <a href="venice.html">
+            <img src="images/venice.jpeg" alt="Венеция" width="100" height="70">
+        </a>
+        <br><br>
+
+        <a href="florence.html" style="color: rgb(5, 5, 5); margin: 10px;">
+            Флоренция
+        </a>
+        <br>
+        <a href="florence.html">
+            <img src="images/florence.jpg" alt="Флоренция" width="100" height="70">
+        </a>
+        <br><br>
+
+        <a href="milan.html" style="color: rgb(5, 5, 5); margin: 10px;">
+            Милан
+        </a>
+        <br>
+        <a href="milan.html">
+            <img src="images/milan.jpg" alt="Милан" width="100" height="70">
+        </a>
+        <br><br>
+
+        <a href="travel.html" style="color: rgb(5, 5, 5); margin: 10px;">
+            Советы туристам
+        </a>
+        <br><br>
+
+        <a href="forms.html" style="color: #006b35; margin: 10px;">
+            Формы
+        </a>
+        <br><br>
+        
+        <a href="passport_01.html" style="color: black; margin: 10px;">
+            Паспорт — DOM
+        </a>
+        <br><br>
+
+        <a href="passport_02.html" style="color: black; margin: 10px;">
+            Изменение данных
+        </a>
+        <br><br>
+
+        <a href="task_03.html" style="color: black; margin: 10px;">
+            Алгоритмическая задача
+        </a>
+        <br><br>
+
+        <a href="https://www.italia.it/" target="_blank" style="color: rgb(5, 5, 5); margin: 10px;">
+            Официальный туристический сайт Италии
+        </a>
+
+    </nav>
+
+    <main style="margin-left: 240px; padding: 20px;">
+
+        
+<h2>1. Контактная форма</h2>
+
+<form action="https://www.google.com/search"
+      id="ContactForm"
+      name="ContactForm"
+      target="_blank">
+
+    <p>Введите ваше имя:
+        <input type="text" name="name">
+    </p>
+
+    <p>Введите вашу фамилию:
+        <input type="text" name="lastname">
+    </p>
+
+    <p>Введите вашу группу:
+        <input type="text" name="group">
+    </p>
+
+    <p>Введите ваш номер телефона:
+        <input type="tel" name="phone">
+    </p>
+
+    <p>Введите вашу электронную почту:
+        <input type="text" name="email">
+    </p>
+
+    <p>Укажите дату заполнения:
+        <input name="user_date" type="date" value="2026-10-20">
+    </p>
+
+    <p>Ваш вопрос:
+        <input type="text" name="question">
+    </p>
+
+    <p>
+        <input type="submit" value="Отправить">
+        <input type="reset" value="Очистить">
+    </p>
+
+</form>
+       
+
+<h2>2. Анкета путешественника</h2>
+
+<form action="https://www.google.com/search"
+      id="TravelForm"
+      name="TravelForm"
+      target="_blank">
+
+    <input type="hidden" name="q" value="Путешествия по Италии">
+
+    <p>Введите ваше имя:
+        <input type="text" name="name" value="Анна">
+    </p>
+
+    <p>Укажите ваш возраст:
+        <input type="number" name="age" min="1" max="120">
+    </p>
+
+    <p>Какой город вы хотите посетить?</p>
+
+    <p>
+        <input type="radio" id="rome" name="city" value="Рим">
+        <label for="rome">Рим</label>
+    </p>
+
+    <p>
+        <input type="radio" id="venice" name="city" value="Венеция">
+        <label for="venice">Венеция</label>
+    </p>
+
+    <p>
+        <input type="radio" id="florence" name="city" value="Флоренция">
+        <label for="florence">Флоренция</label>
+    </p>
+
+    <p>Что вас интересует?</p>
+
+    <p>
+        <input type="checkbox" id="architecture" name="interest" value="Архитектура">
+        <label for="architecture">Архитектура и история</label>
+    </p>
+
+    <p>
+        <input type="checkbox" id="food" name="interest" value="Кухня">
+        <label for="food">Итальянская кухня</label>
+    </p>
+
+    <p>
+        <input type="checkbox" id="shopping" name="interest" value="Шопинг">
+        <label for="shopping">Шопинг</label>
+    </p>
+
+    <p>Дата поездки:
+        <input type="date" name="travel_date">
+    </p>
+
+    <p>Придумайте пароль для анкеты:
+        <input type="password" name="password">
+    </p>
+
+    <p>
+        <input type="submit" value="Отправить анкету">
+        <input type="reset" value="Очистить">
+    </p>
+
+</form>
+
+
+
+        <p><a href="#top">Вернуться наверх</a></p>
+
+    </main>
+
+    <footer style="background-color: #008c45; color: white; padding: 15px; text-align: center; clear: both;">
+        <p>© 2026 Путешествия по Италии</p>
+    </footer>
+
+</body>
+</html>
